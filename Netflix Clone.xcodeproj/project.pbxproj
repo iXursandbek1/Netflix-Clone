@@ -18,6 +18,7 @@
 		04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */; };
 		04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */; };
 		04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */; };
+		04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloandsViewController.swift; sourceTree = "<group>"; };
 		04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewContrller.swift; sourceTree = "<group>"; };
 		04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */,
+				04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */,
+				04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */,
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
 				04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */,
 				04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */,
