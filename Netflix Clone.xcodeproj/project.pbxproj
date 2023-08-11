@@ -19,6 +19,8 @@
 		04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */; };
 		04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */; };
 		04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */; };
+		04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A282A85FFA900E4DCFF /* APICaller.swift */; };
+		04A85A2B2A8605F700E4DCFF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2A2A8605F700E4DCFF /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewContrller.swift; sourceTree = "<group>"; };
 		04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		04A85A282A85FFA900E4DCFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		04A85A2A2A8605F700E4DCFF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		04A85A212A84C22C00E4DCFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04A85A2A2A8605F700E4DCFF /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		04A85A232A84C24800E4DCFF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				04A85A282A85FFA900E4DCFF /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -205,12 +211,14 @@
 			files = (
 				04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */,
 				04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */,
+				04A85A2B2A8605F700E4DCFF /* Movie.swift in Sources */,
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
 				04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */,
 				04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */,
 				04A85A162A84047000E4DCFF /* HomeViewController.swift in Sources */,
 				04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */,
 				04A85A082A8400CF00E4DCFF /* Netflix_Clone.xcdatamodeld in Sources */,
+				04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */,
 				04A859FE2A8400CF00E4DCFF /* AppDelegate.swift in Sources */,
 				04A85A002A8400CF00E4DCFF /* SceneDelegate.swift in Sources */,
 			);
