@@ -20,7 +20,7 @@
 		04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */; };
 		04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */; };
 		04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A282A85FFA900E4DCFF /* APICaller.swift */; };
-		04A85A2B2A8605F700E4DCFF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2A2A8605F700E4DCFF /* Movie.swift */; };
+		04A85A2B2A8605F700E4DCFF /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2A2A8605F700E4DCFF /* Title.swift */; };
 		04A85A2D2A864E2D00E4DCFF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2C2A864E2D00E4DCFF /* Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		04A85A282A85FFA900E4DCFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		04A85A2A2A8605F700E4DCFF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04A85A2A2A8605F700E4DCFF /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		04A85A2C2A864E2D00E4DCFF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,7 @@
 		04A85A212A84C22C00E4DCFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04A85A2A2A8605F700E4DCFF /* Movie.swift */,
+				04A85A2A2A8605F700E4DCFF /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 			files = (
 				04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */,
 				04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */,
-				04A85A2B2A8605F700E4DCFF /* Movie.swift in Sources */,
+				04A85A2B2A8605F700E4DCFF /* Title.swift in Sources */,
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
 				04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */,
 				04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */,
