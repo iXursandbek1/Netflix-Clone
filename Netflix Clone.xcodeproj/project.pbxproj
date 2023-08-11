@@ -21,6 +21,7 @@
 		04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */; };
 		04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A282A85FFA900E4DCFF /* APICaller.swift */; };
 		04A85A2B2A8605F700E4DCFF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2A2A8605F700E4DCFF /* Movie.swift */; };
+		04A85A2D2A864E2D00E4DCFF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A2C2A864E2D00E4DCFF /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		04A85A282A85FFA900E4DCFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		04A85A2A2A8605F700E4DCFF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04A85A2C2A864E2D00E4DCFF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		04A85A222A84C23500E4DCFF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04A85A2C2A864E2D00E4DCFF /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				04A85A162A84047000E4DCFF /* HomeViewController.swift in Sources */,
 				04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */,
 				04A85A082A8400CF00E4DCFF /* Netflix_Clone.xcdatamodeld in Sources */,
+				04A85A2D2A864E2D00E4DCFF /* Extension.swift in Sources */,
 				04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */,
 				04A859FE2A8400CF00E4DCFF /* AppDelegate.swift in Sources */,
 				04A85A002A8400CF00E4DCFF /* SceneDelegate.swift in Sources */,
