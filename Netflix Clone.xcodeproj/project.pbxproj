@@ -27,6 +27,7 @@
 		04A85A362A86AC5100E4DCFF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 04A85A352A86AC5100E4DCFF /* SDWebImageMapKit */; };
 		04A85A382A87443F00E4DCFF /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */; };
 		04A85A3A2A87481100E4DCFF /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A392A87481100E4DCFF /* TitleViewModel.swift */; };
+		04A85A4A2A87AEE400E4DCFF /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		04A85A302A86AA6700E4DCFF /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		04A85A392A87481100E4DCFF /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +106,8 @@
 		04A85A142A84045D00E4DCFF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04A85A152A84047000E4DCFF /* HomeViewController.swift */,
-				04A85A172A84049A00E4DCFF /* UpcomingViewController.swift */,
-				04A85A192A8404C200E4DCFF /* SearchViewController.swift */,
-				04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */,
+				04A85A482A87AEB200E4DCFF /* General */,
+				04A85A472A87AEA900E4DCFF /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +153,25 @@
 				04A85A282A85FFA900E4DCFF /* APICaller.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		04A85A472A87AEA900E4DCFF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04A85A152A84047000E4DCFF /* HomeViewController.swift */,
+				04A85A172A84049A00E4DCFF /* UpcomingViewController.swift */,
+				04A85A192A8404C200E4DCFF /* SearchViewController.swift */,
+				04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04A85A482A87AEB200E4DCFF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */,
+				04A85A4A2A87AEE400E4DCFF /* SearchResultsViewController.swift in Sources */,
 				04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */,
 				04A85A2B2A8605F700E4DCFF /* Title.swift in Sources */,
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
