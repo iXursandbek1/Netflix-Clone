@@ -25,6 +25,8 @@
 		04A85A312A86AA6700E4DCFF /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A302A86AA6700E4DCFF /* TitleCollectionViewCell.swift */; };
 		04A85A342A86AC5100E4DCFF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 04A85A332A86AC5100E4DCFF /* SDWebImage */; };
 		04A85A362A86AC5100E4DCFF /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 04A85A352A86AC5100E4DCFF /* SDWebImageMapKit */; };
+		04A85A382A87443F00E4DCFF /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */; };
+		04A85A3A2A87481100E4DCFF /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A392A87481100E4DCFF /* TitleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		04A85A2A2A8605F700E4DCFF /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		04A85A2C2A864E2D00E4DCFF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		04A85A302A86AA6700E4DCFF /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		04A85A392A87481100E4DCFF /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		04A85A1F2A84C20A00E4DCFF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				04A85A392A87481100E4DCFF /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */,
 				04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */,
 				04A85A302A86AA6700E4DCFF /* TitleCollectionViewCell.swift */,
+				04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 				04A85A312A86AA6700E4DCFF /* TitleCollectionViewCell.swift in Sources */,
 				04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */,
 				04A85A082A8400CF00E4DCFF /* Netflix_Clone.xcdatamodeld in Sources */,
+				04A85A382A87443F00E4DCFF /* TitleTableViewCell.swift in Sources */,
 				04A85A2D2A864E2D00E4DCFF /* Extension.swift in Sources */,
 				04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */,
+				04A85A3A2A87481100E4DCFF /* TitleViewModel.swift in Sources */,
 				04A859FE2A8400CF00E4DCFF /* AppDelegate.swift in Sources */,
 				04A85A002A8400CF00E4DCFF /* SceneDelegate.swift in Sources */,
 			);
