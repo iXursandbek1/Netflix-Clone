@@ -28,6 +28,9 @@
 		04A85A382A87443F00E4DCFF /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */; };
 		04A85A3A2A87481100E4DCFF /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A392A87481100E4DCFF /* TitleViewModel.swift */; };
 		04A85A4A2A87AEE400E4DCFF /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */; };
+		04D4252E2A8C870100530065 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4252D2A8C870100530065 /* YoutubeSearchResponse.swift */; };
+		04D425302A8C9C4C00530065 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4252F2A8C9C4C00530065 /* TitlePreviewViewController.swift */; };
+		04D425322A8CA62500530065 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D425312A8CA62500530065 /* TitlePreviewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		04A85A372A87443F00E4DCFF /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		04A85A392A87481100E4DCFF /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		04D4252D2A8C870100530065 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		04D4252F2A8C9C4C00530065 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		04D425312A8CA62500530065 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				04A85A392A87481100E4DCFF /* TitleViewModel.swift */,
+				04D425312A8CA62500530065 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				04A85A2A2A8605F700E4DCFF /* Title.swift */,
+				04D4252D2A8C870100530065 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				04A85A492A87AEE400E4DCFF /* SearchResultsViewController.swift */,
+				04D4252F2A8C9C4C00530065 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -258,7 +267,9 @@
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
 				04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */,
 				04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */,
+				04D4252E2A8C870100530065 /* YoutubeSearchResponse.swift in Sources */,
 				04A85A162A84047000E4DCFF /* HomeViewController.swift in Sources */,
+				04D425302A8C9C4C00530065 /* TitlePreviewViewController.swift in Sources */,
 				04A85A312A86AA6700E4DCFF /* TitleCollectionViewCell.swift in Sources */,
 				04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */,
 				04A85A082A8400CF00E4DCFF /* Netflix_Clone.xcdatamodeld in Sources */,
@@ -267,6 +278,7 @@
 				04A85A292A85FFA900E4DCFF /* APICaller.swift in Sources */,
 				04A85A3A2A87481100E4DCFF /* TitleViewModel.swift in Sources */,
 				04A859FE2A8400CF00E4DCFF /* AppDelegate.swift in Sources */,
+				04D425322A8CA62500530065 /* TitlePreviewViewModel.swift in Sources */,
 				04A85A002A8400CF00E4DCFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
