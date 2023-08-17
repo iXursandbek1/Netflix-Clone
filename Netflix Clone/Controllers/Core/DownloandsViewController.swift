@@ -1,5 +1,5 @@
 //
-//  UpcomingViewController.swift
+//  DowloandsViewController.swift
 //  Netflix Clone
 //
 //  Created by Xursandbek Qambaraliyev on 09/08/23.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class UpcomingViewController: UIViewController {
+class DownloandsViewController: UIViewController {
     
-    private var titles: [Title] = [Title]()
+    private var titles: [TitleItem] = [TitleItem]()
     
-    private let upcomingTable: UITableView = {
+    private let downloadedTable: UITableView = {
         let tableView = UITableView()
         tableView.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return tableView
@@ -19,43 +19,45 @@ class UpcomingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = .systemBackground
-        title = "Upcoming"
+        title = "Downloads"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .always
+        view.addSubview(downloadedTable)
+        downloadedTable.delegate = self
+        downloadedTable.dataSource = self
+        fetchLocalStorageForDownload()
         
-        view.addSubview(upcomingTable)
-        upcomingTable.delegate = self
-        upcomingTable.dataSource = self
-        
-        fetchUpcoming()
+        NotificationCenter.default.addObserver(forName: NSNotification.Name("Downloaded"), object: nil, queue: nil) { _ in
+            self.fetchLocalStorageForDownload()
+        }
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        upcomingTable.frame = view.bounds
-    }
-    
-    private func fetchUpcoming() {
+    private func fetchLocalStorageForDownload() {
         
-        APICaller.shared.getUpcomingMovies { result in
+        DataPersistenceManager.share.fetchingTitlesFromDataBase {[weak self] result in
             
             switch result {
-            case .success(let title):
-                self.titles = title
+            case .success(let titles):
+                self?.titles = titles
                 DispatchQueue.main.async {
-                    self.upcomingTable.reloadData()
+                    self?.downloadedTable.reloadData()
                 }
-                
             case .failure(let error):
                 print(error.localizedDescription)
             }
         }
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        downloadedTable.frame = view.bounds
+    }
 }
 
-extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
+extension DownloandsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count
@@ -77,6 +79,28 @@ extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         return 140
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        switch editingStyle {
+        case .delete:
+            
+            DataPersistenceManager.share.deleteTitleWith(model: titles[indexPath.row]) {[weak self] result in
+                
+                switch result {
+                case .success():
+                    print("Delate from DataBase")
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+                self?.titles.remove(at: indexPath.row)
+                tableView.deleteRows(at: [indexPath], with: .fade)
+            }
+            
+        default:
+            break;
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

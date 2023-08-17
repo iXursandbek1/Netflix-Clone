@@ -15,7 +15,7 @@
 		04A85A162A84047000E4DCFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A152A84047000E4DCFF /* HomeViewController.swift */; };
 		04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A172A84049A00E4DCFF /* UpcomingViewController.swift */; };
 		04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A192A8404C200E4DCFF /* SearchViewController.swift */; };
-		04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */; };
+		04A85A1C2A8404F700E4DCFF /* DownloandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1B2A8404F700E4DCFF /* DownloandsViewController.swift */; };
 		04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */; };
 		04A85A252A84C27600E4DCFF /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */; };
 		04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */; };
@@ -31,6 +31,7 @@
 		04D4252E2A8C870100530065 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4252D2A8C870100530065 /* YoutubeSearchResponse.swift */; };
 		04D425302A8C9C4C00530065 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4252F2A8C9C4C00530065 /* TitlePreviewViewController.swift */; };
 		04D425322A8CA62500530065 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D425312A8CA62500530065 /* TitlePreviewViewModel.swift */; };
+		04D425342A8E03C100530065 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D425332A8E03C100530065 /* DataPersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,7 @@
 		04A85A152A84047000E4DCFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04A85A172A84049A00E4DCFF /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		04A85A192A8404C200E4DCFF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloandsViewController.swift; sourceTree = "<group>"; };
+		04A85A1B2A8404F700E4DCFF /* DownloandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloandsViewController.swift; sourceTree = "<group>"; };
 		04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewContrller.swift; sourceTree = "<group>"; };
 		04A85A242A84C27600E4DCFF /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		04A85A262A84D08500E4DCFF /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		04D4252D2A8C870100530065 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		04D4252F2A8C9C4C00530065 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		04D425312A8CA62500530065 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		04D425332A8E03C100530065 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,6 @@
 				04A85A202A84C22000E4DCFF /* Views */,
 				04A85A1F2A84C20A00E4DCFF /* ViewModels */,
 				04A85A142A84045D00E4DCFF /* Controllers */,
-				04A859FD2A8400CF00E4DCFF /* AppDelegate.swift */,
-				04A859FF2A8400CF00E4DCFF /* SceneDelegate.swift */,
-				04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */,
 				04A85A092A8400D100E4DCFF /* Assets.xcassets */,
 				04A85A0B2A8400D100E4DCFF /* LaunchScreen.storyboard */,
 				04A85A0E2A8400D100E4DCFF /* Info.plist */,
@@ -150,6 +149,8 @@
 		04A85A222A84C23500E4DCFF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04A859FD2A8400CF00E4DCFF /* AppDelegate.swift */,
+				04A859FF2A8400CF00E4DCFF /* SceneDelegate.swift */,
 				04A85A2C2A864E2D00E4DCFF /* Extension.swift */,
 			);
 			path = Resources;
@@ -159,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				04A85A282A85FFA900E4DCFF /* APICaller.swift */,
+				04D425332A8E03C100530065 /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -166,10 +168,11 @@
 		04A85A472A87AEA900E4DCFF /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				04A85A1D2A840E7400E4DCFF /* MainTabBarViewContrller.swift */,
 				04A85A152A84047000E4DCFF /* HomeViewController.swift */,
 				04A85A172A84049A00E4DCFF /* UpcomingViewController.swift */,
 				04A85A192A8404C200E4DCFF /* SearchViewController.swift */,
-				04A85A1B2A8404F700E4DCFF /* DowloandsViewController.swift */,
+				04A85A1B2A8404F700E4DCFF /* DownloandsViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -263,10 +266,11 @@
 				04A85A182A84049A00E4DCFF /* UpcomingViewController.swift in Sources */,
 				04A85A4A2A87AEE400E4DCFF /* SearchResultsViewController.swift in Sources */,
 				04A85A272A84D08500E4DCFF /* HeroHeaderUIView.swift in Sources */,
+				04D425342A8E03C100530065 /* DataPersistenceManager.swift in Sources */,
 				04A85A2B2A8605F700E4DCFF /* Title.swift in Sources */,
 				04A85A1E2A840E7400E4DCFF /* MainTabBarViewContrller.swift in Sources */,
 				04A85A1A2A8404C200E4DCFF /* SearchViewController.swift in Sources */,
-				04A85A1C2A8404F700E4DCFF /* DowloandsViewController.swift in Sources */,
+				04A85A1C2A8404F700E4DCFF /* DownloandsViewController.swift in Sources */,
 				04D4252E2A8C870100530065 /* YoutubeSearchResponse.swift in Sources */,
 				04A85A162A84047000E4DCFF /* HomeViewController.swift in Sources */,
 				04D425302A8C9C4C00530065 /* TitlePreviewViewController.swift in Sources */,
