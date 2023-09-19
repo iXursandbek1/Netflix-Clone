@@ -1,4 +1,4 @@
-# DinerTimer
+# Netflix-Clone
 
 ### Screen Shots
 <img src="https://user-images.githubusercontent.com/67172004/109070833-dc259a80-76a7-11eb-8050-cf6feb1a3081.png" width="600" height="490">
@@ -17,42 +17,45 @@
 
 ## Description
 
-- A simple food timer app for typical breakfast foods! 
+- Thanks to the freeCodeCamp.org Youtube chanel to giving great lessons about iOS Development!
 
-- Each item has their own methods of cooking and cook times will vary depending on your preferred choice of doneness
+- You can see Tranding, Coming soon and Popular movies also Tranding TV.
 
-- Alerts user when item is done by using User Notifications
+- By clicking each Movie you can see its Trailer on Youtube.
 
-- Project was completed using 100% programmatic UI (No Storyboard)
+- Project was completed using Storyboard, Nib Files and Pogrammatic way by using UIKit.
 
 
-- MVC design pattern
+- MVVM design pattern
 
 #### Frameworks
 
 - UIKit
 - AVFoundation
-- UserNotifications
+- Core Data
 - NotificationCenter
-- Core Animation
-- Core Graphics
+- CDWebImage
+
 
 ---
 ### What I Learned:
+- Sending URL Requests and Parsing JSON response
+- Consuming API To Fetch Data for each Section
+- Using YouTube API
+- Core Data (Best Practices)
 - When to use notifications/observers vs. delegates/protocols
-- Chaining animations together 
-- Setting up autolayout to work with all iPhone devices
 ---
 
 ## How To Use
 
-- Clone the project and run it on Xcode 12 or above
-- Also available on the Apple Appstore: https://apps.apple.com/us/app/dinertimer/id1550181756
+- Clone the project and run it on Xcode 13 or above
+- You can find full video course on YouTube: https://www.youtube.com/watch?v=KCgYDCKqato&t=19s
 ---
 
 ## Author Info
 
-- Twitter - [@alexDidLoad](https://twitter.com/alexDidLoad)
-- Website - [LinkedIn: Alexander Ha](https://linkedin.com/in/alexhha)
+- Mail - [Khursandbek](kambaraliyev2001@mail.ru)
+- Telegram - [@iXursandbek](https://t.me/iXursandbek)
+- Instagram = [@iXursandbek](https://instagram.com/ixursandbek_?igshid=MzRlODBiNWFlZA==)
 
-[Back To The Top](#DinerTimer)
+[Back To The Top](#Netflix-Clone)
