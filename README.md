@@ -5,9 +5,10 @@
 <img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/64d33219-51c0-4f2f-87ce-e7456c1846a1" width="240" height="510">
 <img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/2a4318bf-3a37-4b70-acb6-d7dd795f1b72" width="240" height="510">
 
+### Screen Recods
 <img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/0288bb4c-833a-4233-98e5-d953ba7b4440" width="240" height="510">.
 <img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/6b411930-ef2b-46ea-8eed-79d4c0c09670" width="240" height="510">.
-<img src="https://user-images.githubusercontent.com/67172004/107610733-22cebb80-6bf7-11eb-937c-65f9fde5c778.gif" width="240" height="510">
+<img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/1d742555-595e-4928-a4ac-2e9cd6c3edc5" width="240" height="510">
 
 ---
 
