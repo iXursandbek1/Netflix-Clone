@@ -1,7 +1,7 @@
 # Netflix-Clone
 
 ### Screen Shots
-<img src="https://user-images.githubusercontent.com/67172004/109070833-dc259a80-76a7-11eb-8050-cf6feb1a3081.png" width="600" height="490">
+<img src="https://github.com/iXursandbek1/Netflix-Clone/assets/114641378/79db1024-1f2d-423d-96a5-78414d5927b6" width="600" height="490">
 
 <img src="https://user-images.githubusercontent.com/67172004/107609786-cec2d780-6bf4-11eb-8081-25ca517473c9.gif" width="240" height="510">.<img src="https://user-images.githubusercontent.com/67172004/107610733-22cebb80-6bf7-11eb-937c-65f9fde5c778.gif" width="240" height="510">
 
@@ -56,6 +56,6 @@
 
 - Mail - [Khursandbek](kambaraliyev2001@mail.ru)
 - Telegram - [@iXursandbek](https://t.me/iXursandbek)
-- Instagram = [@iXursandbek](https://instagram.com/ixursandbek_?igshid=MzRlODBiNWFlZA==)
+- Instagram - [@iXursandbek](https://instagram.com/ixursandbek_?igshid=MzRlODBiNWFlZA==)
 
 [Back To The Top](#Netflix-Clone)
